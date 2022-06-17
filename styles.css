@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1;
+}
+
+.container {
+    background-color: #eee;
+    width: 99%;
+    margin: 3rem auto;
+    border-radius: 5px;
+}
+
+.color-444 {
+    color: #444;
+}
+
+header {
+    text-align: center;
+}
+
+.letter-spacing_1px {
+    letter-spacing: 1px;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
+#title {
+    font-size: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.about,
+#img-caption {
+    font-size: 1.4rem;
+}
+
+.text-align_center {
+    text-align: center;
+}
+
+#image-div {
+    background-color: #fff;
+    margin: 2rem 1.7rem;
+    padding: 10rem 0 2rem 0;
+}
+
+#image {
+    margin: auto;
+    width: 80%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+#tribute-info {
+    width: 40%;
+    margin: 6rem auto;
+    font-size: 1.5rem;
+}
+
+#tribute-info p,
+.footer {
+    font-weight: bold;
+}
+
+#tribute-info p {
+    font-size: 1.8rem;
+    margin-bottom: 6rem;
+}
+
+ul li:not(:last-child) {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#tribute-info ul {
+    margin-bottom: 6rem;
+}
+
+blockquote {
+    margin-left: -1.4rem;
+    font-style: italic;
+}
+
+.by {
+    margin-top: 3rem;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 0 2rem 5rem;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 1445px) {
+    #tribute-info {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    #tribute-info {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #tribute-info {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #tribute-info {
+        width: 90%;
+    }
+
+    #tribute-info ul {
+        list-style-type: none;
+    }
+
+    blockquote {
+        margin-left: 0;
+    }
+}
